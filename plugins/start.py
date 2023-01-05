@@ -46,7 +46,7 @@ async def start(client, message):
         id = message.text.split(' ')[1]
     except:
         txt=f"""Hello {wish} {message.from_user.first_name } \n\n
-	I am file renamer bot, Please sent any telegram**Document Or Video** and enter new filename to rename it"""
+	I am **Ms Renamer Bot from tamil nadu**. You can send me file i will rename it with custom thumbnail & caption support - பெருமைக்குரிய தமிழன்!!!"""
         await message.reply_photo(photo=LAZY_PIC,
                                 caption=txt,
                                 reply_markup=InlineKeyboardMarkup(
@@ -80,8 +80,7 @@ async def start(client, message):
             uploadlimit(int(id), new_limit)
             await message.reply_text(text=f"""
 	Hello {wish} {message.from_user.first_name }\n\n
-	__I am file renamer bot, Please send any telegram 
-	**Document Or Video** and enter new filename to rename it__
+	__I am **Ms Renamer Bot from tamil nadu**. You can send me file i will rename it with custom thumbnail & caption support - பெருமைக்குரிய தமிழன்!!!__
 	""", reply_to_message_id=message.id,
                                      reply_markup=InlineKeyboardMarkup(
                                          [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/TN68_Linkzz")],

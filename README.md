@@ -1,7 +1,7 @@
 <img src="https://telegra.ph/file/8c5b584dd3f9b2ed31d87.jpg" alt="logo" target="/blank">
 
 <h1 align="center">
- <b><a href="https://telegram.me/mrmalik_offl" target="/blank"> Gangster Baby ( PREMIUM Renamer ) </a></>
+ <b><a href="https://telegram.me/mrmalik_offl" target="/blank"> Ms Renamer X ( PREMIUM Renamer ) </a></>
 </h1>
 
 <p align="center">🤍 Thanks for Being Here 🤍</p>

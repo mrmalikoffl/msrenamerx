@@ -97,7 +97,7 @@
 
 
 #### 🧡 Respecting... 🧡
-- [🔥 LazyDeveloperr](https://github.com/mrmalikoffl) 
+- [🔥 Mr Malik](https://github.com/mrmalikoffl) 
 
 ### 🤩 INSPIRATION
 <a href="#">

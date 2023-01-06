@@ -2,7 +2,7 @@ import asyncio
 from pyrogram import Client, compose,idle
 import os
 
-from plugins.cb_data import app as Client
+from plugins.cb_data import app as Client2
 
 TOKEN = os.environ.get("TOKEN", "")
 
@@ -28,7 +28,7 @@ bot = Client(
            
 
 if STRING:
-    apps = [Client,bot]
+    apps = [Client2,bot]
     for app in apps:
         app.start()
     idle()

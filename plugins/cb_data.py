@@ -26,7 +26,7 @@ STRING = os.environ.get("STRING", "")
 
 ADMIN = os.environ.get("ADMIN", "")
 
-app = Client("test", api_id=API_ID, api_hash=API_HASH, session_string=STRING)
+app = Client("test", api_id=API_ID, api_hash=API_HASH, export_session_string=STRING)
 
 
 @Client.on_callback_query(filters.regex('cancel'))

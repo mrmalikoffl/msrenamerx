@@ -10,14 +10,17 @@ async def upgrade(bot,update):
 	
 	**🪙 Silver Tier 🪙** 
 	Daily  Upload  limit 10GB
+	Upload File Size Upto 2GB
 	Price Rs 49  ind /🌎 0.8$  per Month
 	
 	**💫 Gold Tier 💫**
 	Daily Upload limit 50GB
+	Upload File Size Upto 2GB
 	Price Rs 99  ind /🌎 1.2$  per Month
 	
 	**💎 Diamond 💎**
 	Daily Upload limit 100GB
+	Upload File Size Upto 2GB
 	Price Rs 199  ind /🌎 2.5$  per Month
 	
 	
@@ -40,14 +43,17 @@ async def upgradecm(bot,message):
 	
 	**🪙 Silver Tier 🪙** 
 	Daily  Upload  limit 10GB
+	Upload File Size Upto 2GB
 	Price Rs 49  ind /🌎 0.8$  per Month
 	
 	**💫 Gold Tier 💫**
 	Daily Upload limit 50GB
+	Upload File Size Upto 2GB
 	Price Rs 99  ind /🌎 1.2$  per Month
 	
 	**💎 Diamond 💎**
 	Daily Upload limit 100GB
+	Upload File Size Upto 2GB
 	Price Rs 199  ind /🌎 2.5$  per Month
 	
 	

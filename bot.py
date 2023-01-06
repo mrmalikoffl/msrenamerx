@@ -30,7 +30,6 @@ bot = Client(
 if STRING:
     apps = [Client2,bot]
     for app in apps:
-    session = app.export_session_string()
         app.start()
     idle()
     for app in apps:

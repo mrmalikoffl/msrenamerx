@@ -86,7 +86,7 @@ async def doc(bot, update):
         pass
     thumb = data[0]
     if c_caption:
-        doc_list = [**"filename"**, "filesize"]
+        doc_list = ["filename", "filesize"]
         new_tex = escape_invalid_curly_brackets(c_caption, doc_list)
         caption = new_tex.format(
             filename=new_filename, filesize=humanbytes(file.file_size))

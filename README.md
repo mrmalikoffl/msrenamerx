@@ -4,7 +4,9 @@
  <b><a href="https://telegram.me/mrmalik_offl" target="/blank"> Ms Renamer X ( PREMIUM Renamer ) </a></>
 </h1>
 
-<p align="center">🤍 Thanks for Being Here 🤍</p>
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&pause=1000&width=435&lines=Welcome+to+Ms+Renamer+X)](https://git.io/typing-svg)
+<p align="center">
+🤍 Thanks for Being Here 🤍</p>
 
 
 ### ⚡️ Configs 

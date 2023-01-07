@@ -4,7 +4,7 @@
  <b><a href="https://telegram.me/mrmalik_offl" target="/blank"> Ms Renamer X ( PREMIUM Renamer ) </a></>
 </h1>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&pause=1000&width=435&lines=Welcome+to+Ms+Renamer+X)](https://git.io/typing-svg)
+<p align="center"> [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&pause=1000&width=435&lines=Welcome+to+Ms+Renamer+X+Bot+4GB+Premium+Bot)](https://git.io/typing-svg) </p>
 <p align="center">
 🤍 Thanks for Being Here 🤍</p>
 

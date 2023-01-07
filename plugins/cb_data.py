@@ -58,7 +58,7 @@ async def doc(bot, update):
     date = used_["date"]
     name = new_name.split(":-")
     new_filename = name[1]
-    file_path = f"downloads/**{new_filename}**"
+    file_path = f"downloads/{new_filename}"
     message = update.message.reply_to_message
     file = message.document or message.video or message.audio
     ms = await update.message.edit("```Trying To Download...```")
@@ -150,7 +150,7 @@ async def vid(bot, update):
     date = used_["date"]
     name = new_name.split(":-")
     new_filename = name[1]
-    file_path = f"downloads/{new_filename}"
+    file_path = f"downloads/**{new_filename}**"
     message = update.message.reply_to_message
     file = message.document or message.video or message.audio
     ms = await update.message.edit("```Trying To Download...```")
@@ -183,7 +183,7 @@ async def vid(bot, update):
     if metadata.has("duration"):
         duration = metadata.get('duration').seconds
     if c_caption:
-        vid_list = ["**filename**", "filesize", "duration"]
+        vid_list = ["filename", "filesize", "duration"]
         new_tex = escape_invalid_curly_brackets(c_caption, vid_list)
         caption = new_tex.format(filename=new_filename, filesize=humanbytes(
             file.file_size), duration=timedelta(seconds=duration))
@@ -251,7 +251,7 @@ async def aud(bot, update):
     used = used_["used_limit"]
     name = new_name.split(":-")
     new_filename = name[1]
-    file_path = f"downloads/{new_filename}"
+    file_path = f"downloads/**{new_filename}**"
     message = update.message.reply_to_message
     file = message.document or message.video or message.audio
     total_used = used + int(file.file_size)
@@ -278,7 +278,7 @@ async def aud(bot, update):
     c_caption = data[1]
     thumb = data[0]
     if c_caption:
-        aud_list = ["**filename**", "filesize", "duration"]
+        aud_list = ["filename", "filesize", "duration"]
         new_tex = escape_invalid_curly_brackets(c_caption, aud_list)
         caption = new_tex.format(filename=new_filename, filesize=humanbytes(
             file.file_size), duration=timedelta(seconds=duration))

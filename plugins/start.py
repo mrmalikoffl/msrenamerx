@@ -50,10 +50,10 @@ async def start(client, message):
         await message.reply_photo(photo=LAZY_PIC,
                                 caption=txt,
                                 reply_markup=InlineKeyboardMarkup(
-                                      [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/TN68_Linkzz")],
+                                      [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/+rN9QCFgIihgyZWM1")],
                                       [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@voiceofmalikoffl")],
                                       [InlineKeyboardButton("Support Group", url='https://t.me/Msrenamerproteam'),
-                                      InlineKeyboardButton("My Channel", url='https://t.me/TN68_Linkzz')],
+                                      InlineKeyboardButton("My Channel", url='https://t.me/+jXeHXx2s3BFlYzg9')],
                                       [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://te.legra.ph/Payment-01-04')]
                                       ]))
         return
@@ -64,10 +64,10 @@ async def start(client, message):
                 await message.reply_photo(photo=LAZY_PIC,
                                          caption=txt,
                                          reply_markup=InlineKeyboardMarkup(
-                                             [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/TN68_Linkzz")],
+                                             [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/+rN9QCFgIihgyZWM1")],
                                              [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@voiceofmalikoffl")],
                                              [InlineKeyboardButton("Support Group", url='https://t.me/Msrenamerproteam'),
-                                             InlineKeyboardButton("My Channel", url='https://t.me/TN68_Linkzz')],
+                                             InlineKeyboardButton("My Channel", url='https://t.me/+jXeHXx2s3BFlYzg9')],
                                              [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://te.legra.ph/Payment-01-04')]
                                              ]))
             except:
@@ -83,10 +83,10 @@ async def start(client, message):
 	__I am **Ms Renamer Bot from tamil nadu**. You can send me file i will rename it with custom thumbnail & caption support - பெருமைக்குரிய தமிழன்!!!__
 	""", reply_to_message_id=message.id,
                                      reply_markup=InlineKeyboardMarkup(
-                                         [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/TN68_Linkzz")],
+                                         [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/+rN9QCFgIihgyZWM1")],
                                          [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@voiceofmalikoffl")],
                                          [InlineKeyboardButton("Support Group", url='https://t.me/Msrenamerproteam'),
-                                         InlineKeyboardButton("My Channel", url='https://t.me/TN68_Linkzz')],
+                                         InlineKeyboardButton("My Channel", url='https://t.me/+jXeHXx2s3BFlYzg9')],
                                          [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://te.legra.ph/Payment-01-04')]
                                           ]))
     
@@ -125,10 +125,10 @@ async def send_doc(client, message):
     except:
         await message.reply_text(text=f"Hello dear {message.from_user.first_name}  **we are currently working on this issue**\n\nPlease try to rename files from your another account.\nBecause this BOT can't rename file sent by some ids.\n\nIf you are an **ADMIN** Don't worry ! here we have a solution for you dear {message.from_user.first_name }.\n\nPlease use \n👉 `/addpremium your_other_userid` 👈 to use premium feautres\n\n",
                                   reply_markup=InlineKeyboardMarkup(
-                                      [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/TN68_Linkzz")],
+                                      [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/+rN9QCFgIihgyZWM1")],
                                       [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@voiceofmalikoffl")],
                                       [InlineKeyboardButton("Support Group", url='https://t.me/Msrenamerproteam'),
-                                      InlineKeyboardButton("My Channel", url='https://t.me/TN68_Linkzz')],
+                                      InlineKeyboardButton("My Channel", url='https://t.me/+jXeHXx2s3BFlYzg9')],
                                       [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://te.legra.ph/Payment-01-04')]
                                        ]))
         await message.reply_text(text=f"🦋")
